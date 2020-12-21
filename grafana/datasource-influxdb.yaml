@@ -1,0 +1,10 @@
+datasources:
+  - name: Influxdb
+    type: influxdb
+    url: http://influxdb:8086
+    access: proxy
+    database: testdb
+    user: influxdb_user
+    password: influxdb-super-password
+    jsonData:
+      httpMode: GET
